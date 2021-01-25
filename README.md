@@ -17,6 +17,7 @@ make build-docker
 ## Running the Exporter
 
 Usage of passenger_exporter_nginx:
+```
   -log.format value
       If set use a syslog logger or JSON logging.
       Example: logger:syslog?appname=bob&local=7 or logger:stdout?json=true.
@@ -35,6 +36,7 @@ Usage of passenger_exporter_nginx:
       Address to listen on for web interface and telemetry. (default ":9149")
   -web.telemetry-path string
       Path under which to expose metrics. (default "/metrics")
+```
 
 To run the Docker image:
 
